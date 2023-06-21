@@ -1,0 +1,30 @@
+body{
+    background-color: #ededed;
+}
+.text{
+   width: 600px;
+   left: -75px;
+}
+@media only screen and (max-width:900px) {
+    .text{
+        left: 0px;
+    }
+}
+#anchor{
+    text-decoration: none;
+}
+.texted{
+    width: 250px;
+    left: 40px;
+}
+@media only screen and (max-width:900px) {
+    .texted{
+        left: 10px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .Email{
+        margin-left: -70px;
+    }
+}
